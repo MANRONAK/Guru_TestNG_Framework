@@ -82,7 +82,7 @@ public class TestClass extends BaseClass {
     }
     @Test(priority = 10)
     public void getCartPageTitle(){
-        String expected="SHOPPING CA";
+        String expected="SHOPPING CART";
         String cartPageTitle = shoppingCartPage.getCartPageTitle();
         Assert.assertEquals(cartPageTitle,expected);
     }
