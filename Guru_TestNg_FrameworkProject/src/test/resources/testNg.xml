@@ -2,6 +2,8 @@
 <suite name="GuruTesting">
     <listeners>
         <listener class-name="listeners.ListnerClass"></listener>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
     </listeners>
     <test name="HomePageTest">
         <classes>
